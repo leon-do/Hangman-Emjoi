@@ -1,0 +1,51 @@
+https://github.com/UCF-Coding-Boot-Camp/09-16-VW-Class-Content/tree/master/homework-assignments/03-intro-javascript/Instructions
+
+document.getElementById("   ")
+id="win"
+id="loss"
+id="image"
+id="text"
+id="hearts"
+id="guessLetters"
+
+
+
+define variables
+	var = theWord[apple,bbanna,cat]
+	var blankWord = [];					// _,_,_,_
+	var guessLetters = [];				// s,w,c,r
+	var guessesLeft = 10				// # guesses left
+	var win = 0
+	var loss = 0
+
+----------------------------
+
+pick a word
+	generate a randomNum
+	theWord = theWord[randomNum]
+	make row of boxes with a letter inside. (for loop and append)
+
+----------------------------
+
+put image
+	on screen
+
+----------------------------
+
+
+blankWord _,_,_,_
+
+
+----------------------------
+
+keydown
+	if key matches anything in box --> visible = true
+	if does not match --> remove a heart
+
+	if heart = 0 --> loss + 1, restart game
+	if div does not have _ --> win ++, restart game
+
+
+
+
+
